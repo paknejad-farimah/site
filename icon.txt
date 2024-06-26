@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+<i class="far fa-user"></i>
+<i class="fas  fa-shopping-cart"></i>
+<i class="fas fa-home"></i>
+<i class="fas  fa-search"></i>
+<i class="fas fa-user"></i>
+<i class="fas fa-circle"</i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-heart"></i>
+<i class="fab fa-google-plus-g"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fas fa-angle-up"></i>
+<i class="fas fa-bell"></i>
+<i class="fas fa-cog"></i>
+<i class="fas fa-power-off"></i>
+<i class="fas fa-clipboard-list"></i>
+<i class="fas fa-cog"></i>
+<i class="fas fa-redo"></i>
+ <i class="fas fa-sort-down"></i>
+<i class="fas fa-plus-circle"></i>
+<canvas id="myChart" width="300" height="150"></canvas> in chartjs.org
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.0/dist/Chart.min.js"></script>
+
+*****************************************************
+cdn ????? ?? ??? ??????
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/> in chartjs.org

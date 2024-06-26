@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <title>home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fas  fa-shopping-cart"></i></a>
+                <a href=""><i class="fas fa-home"></i></a>
+                <div class="search">
+                  <input type="text" class="input" placeholder="جستجو">
+                  <button class="btn">
+                      <i class="fas  fa-search"></i>
+                  </button>
+              </div>
+          
+                </div>
+    <div class="nav-left">
+        <button><a href="index.html">ثبت نام / ورود</button></a>
+</div>
+</nav>
+<ul>
+    
+		<li><a href="#">موبایل</a>
+        <ul>
+            li><a href="#">a52</a></li>
+            <li><a href="#">a32</a></li>
+            <li><a href="#">E5</a> 
+        </ul>
+    </li>
+		<li><a href="product.html"> لپ تاپ</a>
+			<ul>
+				<li><a href="#">hp</a></li>
+				<li><a href="#">assus</a></li>
+				<li><a href="#">acer</a>
+					<ul>
+						<li><a href="#">HTML</a></li>
+						<li><a href="#">CSS</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">هندزفری</a>
+			<ul>
+				<li><a href="#">نوع اول </a></li>
+				<li><a href="#">نوع دوم </a></li>
+			</ul>
+		</li>
+		<li><a href="#">تماس با ما</a></li>
+	</ul>
+
+<section class="slider">
+    <div class="slides">
+       <div class="item" id="slide1">
+          <img src="./image/pi1.webp">
+          <span color="black" ></span>
+       </div>
+          <div class="item active" id="slide2">
+             <img src="./image/pi2.webp">
+          <span> </span>
+          </div>
+             <div class="item" id="slide3">
+                <img src="./image/pi3.webp">
+          <span> </span>
+             </div>
+          </div>
+    
+       <div class="buttons">
+          <i  onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+          <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+    
+       </div>
+       </section> 
+
+    </header>
+    <main>
+        <section class="dragble-list">
+            <div class="title">
+               <span>هندزفری ها</span>
+               </div>
+               <div id="owl-product" class="owl-carousel owl-theme">
+                  <div class="item">
+                     <div class="shopping-card">
+                        <div class="img-sec">
+                           <img src="./image/1.webp" alt=" " />
+                           <span class="hot-offer">پیشنهاد ویژه</span>
+                           <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                           </div>
+                         </div>
+                        <div class="title">
+                           هدست بی سیم
+                        </div>
+                        <div class="buttons">
+                           <div class="right">
+                              <span class="price">800هزارتومان</span>
+                           </div>
+                           <div class="left">
+                              <div class="extend-btn">
+                                 <a class="b-text" href="">علاقه</a>
+                                 <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                              </div>
+                              <div class="extend-btn">
+                                 <a class="b-text" href="">خرید</a>
+                                 <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                              </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  <div class="item">
+                     <div class="shopping-card">
+                        <div class="img-sec">
+                           <img src="./image/2.webp" alt="" />
+                           <span class="hot-offer">پیشنهاد ویژه</span>
+                           <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                           </div>
+                        </div>
+                        <div class="title">
+                           هدست بی سیم
+                        </div>
+                        <div class="buttons">
+                           <div class="right">
+                              <span class="price">800هزارتومان</span>
+                           </div>
+                           <div class="left">
+                              <div class="extend-btn">
+                                 <a class="b-text" href="">علاقه</a>
+                                 <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                              </div>
+                              <div class="extend-btn">
+                                 <a class="b-text" href="">خرید</a>
+                                 <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="shopping-card">
+                  <div class="img-sec">
+                     <img src="./image/3.webp" alt="" />
+                     <span class="hot-offer">پیشنهاد ویژه</span>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+                  <div class="title">
+                     هدست بی سیم
+                  </div>
+                  <div class="buttons">
+                     <div class="right">
+                        <span class="price">800هزارتومان</span>
+                     </div>
+                     <div class="left">
+                        <div class="extend-btn">
+                           <a class="b-text" href="">علاقه</a>
+                           <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                           <a class="b-text" href="">خرید</a>
+                           <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+            <div class="item">
+               <div class="shopping-card">
+                  <div class="img-sec">
+                     <img src="./image/4.webp" alt="" />
+                     <span class="hot-offer">پیشنهاد ویژه</span>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                   </div>
+                  <div class="title">
+                     هدست بی سیم
+                  </div>
+                  <div class="buttons">
+                     <div class="right">
+                        <span class="price">800هزارتومان</span>
+                     </div>
+                     <div class="left">
+                        <div class="extend-btn">
+                           <a class="b-text" href="">علاقه</a>
+                           <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                           <a class="b-text" href="">خرید</a>
+                           <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="shopping-card">
+                  <div class="img-sec">
+                     <img src="./image/5.webp" alt="" />
+                     <span class="hot-offer">پیشنهاد ویژه</span>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                   </div>
+                  <div class="title">
+                     هدست بی سیم
+                  </div>
+                  <div class="buttons">
+                     <div class="right">
+                        <span class="price">800هزارتومان</span>
+                     </div>
+                     <div class="left">
+                        <div class="extend-btn">
+                           <a class="b-text" href="">علاقه</a>
+                           <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                           <a class="b-text" href="">خرید</a>
+                           <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="shopping-card">
+                  <div class="img-sec">
+                     <img src="./image/6.webp" alt="" />
+                     <span class="hot-offer">پیشنهاد ویژه</span>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                  </div>
+                  <div class="title">
+                     هدست بی سیم
+                  </div>
+                  <div class="buttons">
+                     <div class="right">
+                        <span class="price">800هزارتومان</span>
+                     </div>
+                     <div class="left">
+                        <div class="extend-btn">
+                           <a class="b-text" href="">علاقه</a>
+                           <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                           <a class="b-text" href="">خرید</a>
+                           <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="item">
+               <div class="shopping-card">
+                  <div class="img-sec">
+                     <img src="./image/7.webp" alt="" />
+                     <span class="hot-offer">پیشنهاد ویژه</span>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                   </div>
+                  <div class="title">
+                     هدست بی سیم
+                  </div>
+                  <div class="buttons">
+                     <div class="right">
+                        <span class="price">800هزارتومان</span>
+                     </div>
+                     <div class="left">
+                        <div class="extend-btn">
+                           <a class="b-text" href="">علاقه</a>
+                           <a class="b-icon" href=""><i class="fas fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                           <a class="b-text" href="">خرید</a>
+                           <a class="b-icon" href=""><i class="fas fa-shopping-cart"></i></a>
+               </div>
+                     </div>
+                  </div>
+                  </div>
+            </div>
+               </div>
+            </section>
+
+
+    </main>
+    <section class="footer">
+      <div class="row">
+         <div class="col-lg-8">
+            <div class="right">
+             <div class="title">
+درباره ما
+             </div>
+             <div class="des">
+               تهران، یوسف آباد، خیابان اسد آبادی، کوچه 33، پلاک 29، طبقه 5
+               تلفن: 88715359-021
+               ایمیل: info [@] dotech.ir
+             </div>
+            </div>
+         </div>
+         <div class="col-lg-4">
+          <div class="left">
+           <div class="title">
+مارادر شبکه های اجتماعی دنبال کنید.
+           </div>
+           <div class="social">
+            <a href="" ><i class="fab fa-twitter"></i></a>
+            <a href="" ><i class="fab fa-linkedin"></i></a>
+            <a href="" ><i class="fab fa-telegram-plane"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href="" ></a>
+           </div>
+          </div>
+         </div>
+         <div class="bottom">
+            کلیه حقوق محفوظ می باشد ©
+            
+         </div>
+      </div>
+   </section>
+    <script src="./js/main.js"></script>
+    <script
+          src="https://code.jquery.com/jquery-3.4.1.min.js"
+          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+          crossorigin="anonymous"></script>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
+    
+</body>
+</html>
